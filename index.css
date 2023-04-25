@@ -1,0 +1,116 @@
+body {
+ <!--background-image: url('photos/big-bend.jpg')-->;
+ background-size: cover;
+ background-position: center;
+ height: 1208px; 
+
+}
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+main {
+ background-color: rgba(0, 0, 0, 0.5);
+ color: #fff;	
+ justify-content: center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div div{
+  flex-direction: column;
+}
+
+div img {
+  flex-shrink: 0;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 500px;
+  hieght: 650px;
+}
+
+div p {
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer p {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons a {
+  display: block;
+  margin: 0 20px;
+}
+
+footer .social-icons img {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+footer .social-icons img:hover {
+  transform: scale(1.2);
+}
